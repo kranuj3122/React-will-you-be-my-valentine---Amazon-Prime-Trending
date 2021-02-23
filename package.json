@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Your task is to Create Simple SlideShow Application using React**",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -49,5 +49,13 @@
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kranuj3122/React-will-you-be-my-valentine---Amazon-Prime-Trending.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kranuj3122/React-will-you-be-my-valentine---Amazon-Prime-Trending/issues"
+  },
+  "homepage": "https://github.com/kranuj3122/React-will-you-be-my-valentine---Amazon-Prime-Trending#readme"
 }
