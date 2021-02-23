@@ -22,7 +22,7 @@ const App = ({ slides }) => {
           style={{ left: "5px", position: "absolute" }}
           onClick={onPrev}
         >
-          prev
+          Prev
         </button>
       ) : null}
       {index !== 0 ? (
@@ -31,7 +31,7 @@ const App = ({ slides }) => {
           style={{ left: "600px", position: "absolute" }}
           onClick={onRestart}
         >
-          restart
+          Restart
         </button>
       ) : null}
       {index !== 4 ? (
@@ -40,7 +40,7 @@ const App = ({ slides }) => {
           style={{ right: "5px", position: "absolute" }}
           onClick={onNext}
         >
-          next
+          Next
         </button>
       ) : null}
     </>
