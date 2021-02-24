@@ -16,21 +16,26 @@ const App = ({ slides }) => {
     <>
       <h1 data-testid="title">{slides[index].title}</h1>
       <p data-testid="text">{slides[index].text}</p>
-      {index != 0 ? (
-        <button data-testid="button-prev" onClick={onPrev}>
-          Prev
-        </button>
-      ) : null}
-      {index !== 0 ? (
-        <button data-testid="button-restart" onClick={onRestart}>
-          Restart
-        </button>
-      ) : null}
-      {index !== slides.length - 1 ? (
-        <button data-testid="button-next" onClick={onNext}>
-          Next
-        </button>
-      ) : null}
+
+      <button data-testid="button-prev" onClick={onPrev} disabled={index === 0}>
+        Prev
+      </button>
+
+      <button
+        data-testid="button-restart"
+        onClick={onRestart}
+        disabled={index === 0}
+      >
+        Restart
+      </button>
+
+      <button
+        data-testid="button-next"
+        onClick={onNext}
+        disabled={index === slides.length - 1}
+      >
+        Next
+      </button>
     </>
   );
 };
